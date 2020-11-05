@@ -8,31 +8,39 @@
 </h2>
 
 <p align="center">
-AI and ML based solution for efficient web scraping
-  
+Next-Gen Residential Proxies is an AI & ML powered solutio backed by NASA, Google, ULC & MIT minds. Currently covers 195 countries and consists of 100M+ IPs with state and city-level targeting.  
 </p>
 
 ## List of contents
 
 - [Features](#features)
+- [How Next-Gen Residential Proxies work](#How-NextGen-Residential-Proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
 
 ## Features
 
- - 100M+ Residential IPs
- - ML-based Adaptive Parser
- - AI-Powered dynamic fingerprinting
- - Auto-Retry system
- - Easy to implement next-level solution
- - POST requests
- - Global coverage (state & city)
+- 100% success rate
+- ML-based Adaptive Parser
+- AI-Powered dynamic fingerprinting
+- Auto-Retry system
+- JavaScript rendering 
+- POST requests
+- CAPTCHA handling
+
+## How Next-Gen Residential Proxies work
+
+See how our Next-Gen Residential Proxies work as explained by our Product Owner Nedas:
+
+https://www.youtube.com/watch?v=RhtfFseqNyc&feature=youtu.be
+
   
 ## Getting started
-<br> 1. [Create Oxylabs account](https://oxylabs.io)
-<br> 2. Choose and activate desired plan.
-<br> 3. Start scraping.
+<br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
+<br> 2. Choose Next-Gen Residential Proxies as the desired product
+<br> 3. Get contacted by our team and set up your proxies
+<br> 4. Start scraping
 
 
 ## Integrations

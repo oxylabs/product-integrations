@@ -8,30 +8,41 @@
 </h2>
 
 <p align="center">
-The most stable and continuously growing residential IP pool to fit any customer's web scraping needs on a large scale. 100M+ Residential IPs can be filtered by country, city or ASN meeting the most diverse business requirements.
+Oxylabs offers 100M+ Residential Proxies from all around the world. They can be filtered by country, city or ASN.
   
 </p>
 
 ## List of contents
 
 - [Features](#features)
+- [How Residential Proxies work](#How-Residential-Proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
 
 ## Features
 
- - 100M+ Residential IPs
- - Zero captchas
- - Zero IP blocking
- - Session control
- - Unlimited concurrent sessions
- - Global coverage (state & city)
+- Unlimited concurrent sessions
+- IP whitelisting 
+- Sticky session support
+- Public API
+- Global coverage (state & city)
+- Fast speed and uptime 
+ 
+## How Residential Proxies work
+
+Our residential IPs originate from internet service providers (ISPs) all around the world. To better understand how they work, check out our video on Residential Proxies:
+
+https://www.youtube.com/watch?v=uN8Y3MZpj8U&feature=youtu.be
+
   
 ## Getting started
-<br> 1. [Create Oxylabs account](https://oxylabs.io)
-<br> 2. Choose and activate desired plan.
-<br> 3. Start scraping.
+<br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
+<br> 2. Choose Datacenter Proxies as the desired product
+<br> 3. Get contacted by our team and set up your proxies
+<br> 4. Start scraping
+
+For a detailed guide on how to implement and start using Real-Time Crawler, check out our [quick start guide](https://oxylabs.io/blog/real-time-crawler-quick-start-guide). 
 
 
 ## Integrations
