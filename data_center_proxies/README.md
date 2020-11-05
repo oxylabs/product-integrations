@@ -8,29 +8,38 @@
 </h2>
 
 <p align="center">
-Exceptional performance private IPs with 82 locations. The most stable, flexible, and high-speed data center proxies on the market.
+As of now, Datacenter Proxy pool covers 82 locations and consists of 2M+ proxies (currently the largest pool in the market). 
   
 </p>
 
-## List of contents
+## Navigation key
 
-- [How does it work](#how-does-it-work)
+- [Features](#features)
+- [How Datacenter Proxies work](#how-Datacenter-Proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
 
-## How does it work
+## Features
 
-Data center proxies are private proxies that are not affiliated with an Internet Service Provider (ISP). Data center proxies come from a secondary corporation and provide you with entirely private IP authentication and a high level of anonymity. The main benefit that data center proxies offer is rapid response times. 
-Our Product Owner Nedas talks all about Data center proxies, and how Oxylabs can accommodate even the most diverse business requirements:
+- Unlimited bandwidth and domains
+- 99.9% uptime
+- Low response time
+- Session control
+
+## How Datacenter Proxies work
+
+Datacenter proxies are private proxies that are not affiliated with an Internet Service Provider (ISP). Datacenter proxies come from a secondary corporation and provide you with a private IP authentication and a high anonymity level: their main benefit - rapid response times. 
+
+See how our Datacenter Proxies work and suit diverse business requirements, as explained by our Product Owner Nedas:
   
   <a href="https://oxylabs.io/products/datacenter-proxies"><img src="https://mcusercontent.com/7dd282e07b7cc1ee95789dcae/video_thumbnails_new/ef291f9b07ce350fe732d1d8ee64f23c.png" align="middle" border="0" /></a>
   
 ## Getting started
-<br> 1. [Create Oxylabs account](https://oxylabs.io)
-<br> 2. Choose and activate desired product.
-<br> 3. Start scraping.
-
+<br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
+<br> 2. Choose Datacenter Proxies as the desired product
+<br> 3. Get contacted by our team and set up your proxies
+<br> 4. Start scraping
 
 ## Integrations
 
