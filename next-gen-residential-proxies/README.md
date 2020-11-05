@@ -11,10 +11,10 @@
 Next-Gen Residential Proxies is an AI & ML powered solutio backed by NASA, Google, ULC & MIT minds. Currently covers 195 countries and consists of 100M+ IPs with state and city-level targeting.  
 </p>
 
-## List of contents
+## Navigation Key
 
 - [Features](#features)
-- [How Next-Gen Residential Proxies work](#How-NextGen-Residential-Proxies-work)
+- [How Next-Gen Residential Proxies work](#how-next-gen-residential-proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
@@ -33,9 +33,8 @@ Next-Gen Residential Proxies is an AI & ML powered solutio backed by NASA, Googl
 
 See how our Next-Gen Residential Proxies work as explained by our Product Owner Nedas:
 
-https://www.youtube.com/watch?v=RhtfFseqNyc&feature=youtu.be
+[![](https://img.youtube.com/vi/RhtfFseqNyc/0.jpg)](https://www.youtube.com/watch?v=RhtfFseqNyc)
 
-  
 ## Getting started
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
 <br> 2. Choose Next-Gen Residential Proxies as the desired product
@@ -45,11 +44,11 @@ https://www.youtube.com/watch?v=RhtfFseqNyc&feature=youtu.be
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/next_gen_residential_proxies/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/next_gen_residential_proxies/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/next_gen_residential_proxies/Nodejs)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/next_gen_residential_proxies/Python)
-- [Shell](https://github.com/oxylabs/product-integrations/tree/master/next_gen_residential_proxies/Shell)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Nodejs)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Python)
+- [Shell](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Shell)
 
 ## Contacts
 Email - hello@oxylabs.io

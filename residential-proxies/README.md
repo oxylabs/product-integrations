@@ -4,7 +4,7 @@
 </p>
 
 <h2 align="center">
-  Oxylabs Rotating Residential Proxies
+  Oxylabs Residential Proxies
 </h2>
 
 <p align="center">
@@ -12,10 +12,10 @@ Oxylabs offers 100M+ Residential Proxies from all around the world. They can be 
   
 </p>
 
-## List of contents
+## Navigation Key
 
 - [Features](#features)
-- [How Residential Proxies work](#How-Residential-Proxies-work)
+- [How Residential Proxies work](#how-residential-proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
@@ -33,8 +33,7 @@ Oxylabs offers 100M+ Residential Proxies from all around the world. They can be 
 
 Our residential IPs originate from internet service providers (ISPs) all around the world. To better understand how they work, check out our video on Residential Proxies:
 
-https://www.youtube.com/watch?v=uN8Y3MZpj8U&feature=youtu.be
-
+[![](https://img.youtube.com/vi/uN8Y3MZpj8U/0.jpg)](https://www.youtube.com/watch?v=uN8Y3MZpj8U)
   
 ## Getting started
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
@@ -47,13 +46,13 @@ For a detailed guide on how to implement and start using Real-Time Crawler, chec
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/PHP)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/Python)
-- [Ruby](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/Ruby)
-- [Shell](https://github.com/oxylabs/product-integrations/tree/master/residential_proxies/Shell)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Nodejs)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/PHP)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Python)
+- [Ruby](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Ruby)
+- [Shell](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Shell)
 
 
 

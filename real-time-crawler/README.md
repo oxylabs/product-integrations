@@ -11,10 +11,10 @@
 Oxylabs’ Real-Time Crawler is a data scraper API that provides real-time information from search engines & e-commerce websites.
 </p>
 
-## List of contents
+## Navigation Key
 
 - [Features](#features)
-- [How Real-Time Crawler works](#How-Real-Time-Crawler-works)
+- [How Real-Time Crawler works](#how-real-time-crawler-works)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
@@ -40,8 +40,7 @@ Real-Time Crawler is easy to use and doesn’t require any specific infrastructu
 
 See how Real-Time Crawler works as explained by our Product Owner Aleksandras:
 
-https://www.youtube.com/watch?v=r8maoZsJkIU&feature=youtu.be
-
+[![](https://img.youtube.com/vi/r8maoZsJkIU/0.jpg)](https://www.youtube.com/watch?v=r8maoZsJkIU)
 
 ## Getting started
 
@@ -54,11 +53,11 @@ For a detailed guide on how to implement and start using Real-Time Crawler, chec
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/real_time_crawler/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/real_time_crawler/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/real_time_crawler/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/real_time_crawler/PHP)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/real_time_crawler/Python)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/real-time-crawler/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/real-time-crawler/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/real-time-crawler/Nodejs)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/real-time-crawler/PHP)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/real-time-crawler/Python)
 
 ## Contacts
 Email - hello@oxylabs.io

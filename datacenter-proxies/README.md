@@ -4,7 +4,7 @@
 </p>
 
 <h2 align="center">
-  The Best Data Center Proxies for Web Scraping
+  Oxylabs Datacenter Proxies
 </h2>
 
 <p align="center">
@@ -15,7 +15,7 @@ As of now, Datacenter Proxy pool covers 82 locations and consists of 2M+ proxies
 ## Navigation key
 
 - [Features](#features)
-- [How Datacenter Proxies work](#how-Datacenter-Proxies-work)
+- [How Datacenter Proxies work](#how-datacenter-proxies-work)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
@@ -33,7 +33,7 @@ Datacenter proxies are private proxies that are not affiliated with an Internet 
 
 See how our Datacenter Proxies work and suit diverse business requirements, as explained by our Product Owner Nedas:
   
-  <a href="https://oxylabs.io/products/datacenter-proxies"><img src="https://mcusercontent.com/7dd282e07b7cc1ee95789dcae/video_thumbnails_new/ef291f9b07ce350fe732d1d8ee64f23c.png" align="middle" border="0" /></a>
+ [![](https://img.youtube.com/vi/0LhUA5nChZk/0.jpg)](https://www.youtube.com/watch?v=0LhUA5nChZk)
   
 ## Getting started
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
@@ -43,13 +43,13 @@ See how our Datacenter Proxies work and suit diverse business requirements, as e
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/PHP)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/Python)
-- [Ruby](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/Ruby)
-- [Shell](https://github.com/oxylabs/product-integrations/tree/master/data_center_proxies/Shell)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Nodejs)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/PHP)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Python)
+- [Ruby](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Ruby)
+- [Shell](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Shell)
 
 
 
