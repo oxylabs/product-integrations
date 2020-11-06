@@ -41,8 +41,15 @@ Our residential IPs originate from internet service providers (ISPs) all around 
 <br> 3. Get contacted by our team and set up your proxies
 <br> 4. Start scraping
 
-For a detailed guide on how to implement and start using Real-Time Crawler, check out our [quick start guide](https://oxylabs.io/blog/real-time-crawler-quick-start-guide). 
+For a detailed guide on how to implement and start using Residential Proxies, check out our [quick start guide](https://oxylabs.io/blog/residential-proxies-quick-start-guide). 
 
+Oxylabs Residential Proxies also have a self-service (Fast Checkout) feature for two of our residential proxy plans – Starter and Business. These options become available after [registering an account](https://dashboard.oxylabs.io/registration). 
+
+For a detailed breakdown on how to use our self-service, be sure to check out this [step-by-step guide](https://oxylabs.io/blog/fast-checkout-guide).
+
+And if you’d like to see a visual demonstration, check out the video below.
+
+[![](https://img.youtube.com/vi/fdLA_gP6sHw/0.jpg)](https://www.youtube.com/watch?v=fdLA_gP6sHw)
 
 ## Integrations
 
