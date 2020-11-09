@@ -8,7 +8,7 @@
 </h2>
 
 <p align="center">
-Next-Gen Residential Proxies is an AI & ML powered solutio backed by NASA, Google, ULC & MIT minds. Currently covers 195 countries and consists of 100M+ IPs with state and city-level targeting.  
+Next-Gen Residential Proxies is an AI & ML powered solution backed by NASA, Google, ULC & MIT minds. Currently covers 195 countries and consists of 100M+ IPs with state and city-level targeting.  
 </p>
 
 ## Navigation Key
