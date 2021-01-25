@@ -8,7 +8,7 @@ proxy = Net::HTTP::Proxy('pr.oxylabs.io', 7777, 'customer-USERNAME-cc-US', 'PASS
 
 req = Net::HTTP::Get.new(uri.path)
 
-result = proxy.start(uri.host,uri.port) do |http|
+result = proxy.start(uri.host,uri.port, :use_ssl => uri.scheme == 'https') do |http|
     http.request(req)
 end
 
