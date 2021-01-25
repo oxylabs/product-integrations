@@ -38,5 +38,5 @@ Using unpkg CDN:
 # Usage
 
 ```bash
-$ node BatchQuery.js
+$ node SingleQuery.js
 ```

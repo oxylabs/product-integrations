@@ -9,11 +9,11 @@ This example does not require any 3rd party dependencies.
 # Usage
 
 Compile:
-```
+```bash
 $ javac RealtimeQuery.java
 ```
 
 Run:
-```
+```bash
 $ java RealtimeQuery.java
 ```
