@@ -19,7 +19,7 @@ import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
 public class Callback {
-	private static final String AUTH = "nedasurtc:krG76922Mq";
+	private static final String AUTH = "user:pass";
 
 	public static void main(String[] args) {
 		try {
