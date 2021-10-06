@@ -1,6 +1,7 @@
 <p align="center">
-    <a href="https://oxylabs.io/"><img src="https://oxylabs.io/build/assets/images/Logo.e7281886e69d264f38d2a38c9f276d0a.svg" alt="Oxylabs logo" width="218" height="42"></a>
-  </a>
+    <a href="https://oxylabs.io/">
+      <img src="../images/oxy_logo.png" alt="Oxylabs logo" width="218">
+    </a>
 </p>
 
 <h2 align="center">
