@@ -7,7 +7,11 @@ import java.net.URL;
 import java.util.Base64;
 
 public class BasicQuery {
-	private static final String AUTH = "user:pass";
+	private static final String AUTH = "user:pass"; //Don't forget to fill in user credentials
+
+	/* This example will submit a job request to E-commerce Universal Scraper API.
+    The job will deliver parsed product data in JSON from books.toscrape.com product page
+    from United States geo-location*/
 
 	public static void main(String[] args) throws IOException{
         String authHeaderValue = "Basic " + Base64.getEncoder().encodeToString(AUTH.getBytes());
@@ -26,7 +30,8 @@ public class BasicQuery {
 		
 		//JSON String need to be constructed for the specific resource. 
 		//We may construct complex JSON using any third-party JSON libraries such as jackson or org.json
-		String payload = "{\"source\": \"universal\", \"url\": \"http://ip.oxylabs.io\"}";
+		//If you wish to get content in HTML you can delete parser_type and parse parameters
+		String payload = "{\"source\": \"universal_ecommerce\", \"url\": \"https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html\", \"geo_location\": \"United States\", \"parser_type\": \"ecommerce_product\", \"parse\": \"true\"}";
 		
 		try(OutputStream os = con.getOutputStream()){
 			byte[] input = payload.getBytes("utf-8");
@@ -36,6 +41,7 @@ public class BasicQuery {
 		int code = con.getResponseCode();
 		System.out.println(code);
 		
+		//To retrieve parsed or raw content from the webpage, use _links from the response dictionary and check RetrieveJobContent.java file
 		try(BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream(), "utf-8"))){
 			StringBuilder response = new StringBuilder();
 			String responseLine = null;
