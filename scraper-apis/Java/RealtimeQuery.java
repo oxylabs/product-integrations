@@ -7,7 +7,10 @@ import java.net.URL;
 import java.util.Base64;
 
 public class RealtimeQuery {
-	private static final String AUTH = "user:pass";
+	private static final String AUTH = "user:pass"; //Don't forget to fill in user credentials
+
+	/* This example will deliver parsed product data in JSON from books.toscrape.com product page
+    from United States geo-location using E-commerce Universal Scraper API.*/
 
 	public static void main(String[] args) throws IOException{
         String authHeaderValue = "Basic " + Base64.getEncoder().encodeToString(AUTH.getBytes());
@@ -26,7 +29,8 @@ public class RealtimeQuery {
 		
 		//JSON String need to be constructed for the specific resource. 
 		//We may construct complex JSON using any third-party JSON libraries such as jackson or org.json
-		String payload = "{\"source\": \"universal\", \"url\": \"http://ip.oxylabs.io\"}";
+		//If you wish to get content in HTML you can delete parser_type and parse parameters
+		String payload = "{\"source\": \"universal_ecommerce\", \"url\": \"https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html\", \"geo_location\": \"United States\", \"parser_type\": \"ecommerce_product\", \"parse\": \"true\"}";
 		
 		try(OutputStream os = con.getOutputStream()){
 			byte[] input = payload.getBytes("utf-8");
