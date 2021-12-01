@@ -46,9 +46,12 @@ See how our Next-Gen Residential Proxies work as explained by our Product Owner 
 ## Integrations
 
 - [C#](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/CSharp)
+- [GoLang](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/GoLang)
 - [Java](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Java)
 - [Node.js](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Nodejs)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/PHP)
 - [Python](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Python)
+- [Ruby](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Ruby)
 - [Shell](https://github.com/oxylabs/product-integrations/tree/master/next-gen-residential-proxies/Shell)
 
 ## Contacts
