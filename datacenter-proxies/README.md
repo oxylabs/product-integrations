@@ -45,6 +45,7 @@ See how our Datacenter Proxies work and suit diverse business requirements, as e
 ## Integrations
 
 - [C#](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/CSharp)
+- [GoLang](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/GoLang)
 - [Java](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Java)
 - [Node.js](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/Nodejs)
 - [PHP](https://github.com/oxylabs/product-integrations/tree/master/datacenter-proxies/PHP)

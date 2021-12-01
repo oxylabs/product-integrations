@@ -1,0 +1,4 @@
+github.com/sbabiv/roundrobin v0.0.0-20180428125943-85f671680a31 h1:bHPLWUWFkZqQhUlsq+jSiYt4C/pZibnADP+v7HrrF3Q=
+github.com/sbabiv/roundrobin v0.0.0-20180428125943-85f671680a31/go.mod h1:mvu7AhDJladBDgG+T0+cTcCK+ijqxv8zgbS+wv2zc3M=
+golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M=
+golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11/go.mod h1:tRJNPiyCQ0inRvYxbN9jk5I+vvW/OXSQhTDSoE431IQ=
