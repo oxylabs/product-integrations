@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PYJMVQGbowElAAZGIQ39n0UxhwfVnnI5j5C/wHNDmxFGDUHB+xOxI2tFj2YbOw+fdFgHZIfsbKytCF2PFwLjAw==",
+  "success": true,
+  "projectFilePath": "Z:\\repos\\Nextgen\\Oxylabs\\Oxylabs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
