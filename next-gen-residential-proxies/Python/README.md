@@ -1,4 +1,4 @@
-# NextGen Residential Proxies PHP Example
+# NextGen Residential Proxies Python Example
 
 This example demonstrates how to use [nextgen residential proxy API](https://developers.oxylabs.io/next-gen-residential-proxies/index.html#quick-start) 
 
