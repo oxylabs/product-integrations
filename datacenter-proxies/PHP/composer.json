@@ -1,0 +1,18 @@
+{
+    "name": "oxylabs/datacenter-example",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "spatie/guzzle-rate-limiter-middleware": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Oxylabs",
+            "email": "developers@oxylabs.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Oxylabs\\DatacenterApi\\": "src/"},
+      "files": ["./header.php"]
+    }
+}
