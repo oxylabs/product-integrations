@@ -55,6 +55,7 @@ And if you’d like to see a visual demonstration, check out the video below.
 ## Integrations
 
 - [C#](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/CSharp)
+- [GoLang](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/GoLang)
 - [Java](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Java)
 - [Node.js](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/Nodejs)
 - [PHP](https://github.com/oxylabs/product-integrations/tree/master/residential-proxies/PHP)
