@@ -1,4 +1,4 @@
-# Residential Proxies PHP Example
+# Residential Proxies Python Example
 
 This example demonstrates how to use [residential proxy API](https://developers.oxylabs.io/residential-proxies/index.html#quick-start) 
 
