@@ -28,5 +28,5 @@ $ pipenv install
 
 Run the script inside the virtualenv
 ```
-$ pipenv run python residential.py
+$ pipenv run python shared_dc.py
 ```
