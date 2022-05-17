@@ -38,8 +38,8 @@ Our residential IPs originate from internet service providers (ISPs) all around 
   
 ## Getting started
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
-<br> 2. Choose Datacenter Proxies as the desired product
-<br> 3. Get contacted by our team and set up your proxies
+<br> 2. Choose Residential Proxies as the desired product
+<br> 3. Get contacted by our team and set up your proxies or purchase using self-service portal
 <br> 4. Start scraping
 
 For a detailed guide on how to implement and start using Residential Proxies, check out our [quick start guide](https://oxylabs.io/blog/residential-proxies-quick-start-guide). 

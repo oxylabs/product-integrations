@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.9)
+
+PLATFORMS
+  universal-darwin-21
+  x86_64-linux
+
+DEPENDENCIES
+  concurrent-ruby (~> 1.1)
+
+BUNDLED WITH
+   2.2.32
