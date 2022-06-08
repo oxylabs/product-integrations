@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d0b4ff6-251b-4a84-8264-b09d685f1db7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/files/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/src/main/resources/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nodejs/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/proxy_list_shared_dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ruby/proxy_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/FileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/FileManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/Oxylabs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/Oxylabs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/Proxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/Proxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/files/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/files/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/Oxylabs.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/Oxylabs.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/Oxylabs/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSharp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CSharp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesystem.go" beforeDir="false" afterPath="$PROJECT_DIR$/filesystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/resources/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/resources/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/filesystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/filesystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/proxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nodejs/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Nodejs/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/src/FileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/src/FileManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/src/ProxyFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/src/ProxyFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/shared_dc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/shared_dc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/url_list_shared_dc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ruby/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Ruby/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ruby/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Ruby/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ruby/proxy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Ruby/proxy.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ruby/settings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Ruby/settings.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ruby/url_list_shared_dc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ruby/url_list_shared_dc.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="ProjectId" id="2A18RomvLQsETYpustWEcG96OUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d0b4ff6-251b-4a84-8264-b09d685f1db7" name="Default Changelist" comment="" />
+      <created>1654165726508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654165726508</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

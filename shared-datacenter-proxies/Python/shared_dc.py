@@ -1,8 +1,9 @@
 import asyncio
+import re
 import sys
 import time
 from dataclasses import dataclass
-from typing import List, Tuple, Union
+from typing import List, Tuple, Union, Dict
 
 import aiohttp
 
@@ -10,18 +11,42 @@ import headers
 
 USERNAME = ""
 PASSWORD = ""
-PROXY_ADDRESS = "dc.pr.oxylabs.io:10000"
 REQUESTS_RATE = 10
 TIMEOUT = 5
 RETRIES_NUM = 3
 URL_LIST_NAME = "url_list_shared_dc.txt"
+PROXY_LIST_NAME = "proxy_list_shared_dc.txt"
 
+DEFAULT_PROXY_INDEX_NAME = 'DEFAULT'
 
 def read_url_list() -> List[str]:
     print("Reading URL list...")
     try:
         with open(URL_LIST_NAME) as urls_list:
             return [url.strip() for url in urls_list.readlines()]
+    except FileNotFoundError:
+        print(f"File `{URL_LIST_NAME}` not found.")
+        sys.exit(1)
+
+
+def read_proxy_map() -> Dict[str, str]:
+    print("Reading Proxy list...")
+    pattern = r'^dc\.(\w{2})-?pr\.oxylabs\.io:\d+$'
+
+    try:
+        proxy_map = {}
+        with open(PROXY_LIST_NAME) as proxy_list:
+            for proxy_url in proxy_list.readlines():
+                stripped_proxy_url = proxy_url.strip()
+                matches = re.findall(pattern, stripped_proxy_url)
+                if not matches:
+                    proxy_map[DEFAULT_PROXY_INDEX_NAME] = stripped_proxy_url
+                    continue
+
+                [country] = matches
+                proxy_map[country.upper()] = stripped_proxy_url
+        return proxy_map
+
     except FileNotFoundError:
         print(f"File `{URL_LIST_NAME}` not found.")
         sys.exit(1)
@@ -38,8 +63,18 @@ class Response:
 async def scrape_page(
         timeout: aiohttp.ClientTimeout,
         url: str,
+        proxy_map: Dict[str, str]
 ) -> Tuple[Union[int, str], str]:
-    proxy = f"http://customer-{USERNAME}:{PASSWORD}@{PROXY_ADDRESS}"
+    country = None
+    split_result = url.split(";")
+    if len(split_result) > 1:
+        url, country = split_result
+
+    proxy_address = proxy_map[DEFAULT_PROXY_INDEX_NAME]
+    if country is not None and country in proxy_map:
+        proxy_address = proxy_map[country]
+
+    proxy = f"http://customer-{USERNAME}:{PASSWORD}@{proxy_address}"
     fingerprint = await headers.get_fingerprint()
     try:
         async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -57,12 +92,13 @@ async def append_failed_requests(message: str) -> None:
 
 async def handle_request_response(timeout: aiohttp.ClientTimeout,
                                   id: int,
-                                  url: str
+                                  url: str,
+                                  proxy_map: Dict[str, str],
                                   ) -> None:
-    response = await scrape_page(timeout=timeout, url=url)
+    response = await scrape_page(timeout=timeout, url=url, proxy_map=proxy_map)
     retries = 0
     while response.status != 200 and retries < RETRIES_NUM:
-        response = await scrape_page(timeout=timeout, url=url)
+        response = await scrape_page(timeout=timeout, url=url, proxy_map=proxy_map)
         retries += 1
     if response.status:
         if response.status == 200:
@@ -77,16 +113,19 @@ async def handle_request_response(timeout: aiohttp.ClientTimeout,
 async def main() -> None:
     start_time = time.time()
     urls = read_url_list()
+    proxy_map = read_proxy_map()
     timeout = aiohttp.ClientTimeout(total=None, sock_connect=TIMEOUT, sock_read=TIMEOUT)
     print("Gathering results...")
     tasks = []
     for id, url in enumerate(urls, 1):
         tasks.append(
-            asyncio.create_task(handle_request_response(
-                timeout=timeout,
-                id=id,
-                url=url
-            )
+            asyncio.create_task(
+                handle_request_response(
+                    timeout=timeout,
+                    id=id,
+                    url=url,
+                    proxy_map=proxy_map
+                )
             )
         )
         await asyncio.sleep(1 / REQUESTS_RATE)

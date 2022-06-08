@@ -10,6 +10,7 @@ def get_settings
     RequestsRate: 10,
     RetriesNum: 3,
     UrlListName: "url_list_shared_dc.txt",
-    ProxyAddress: "dc.pr.oxylabs.io:10000",
+    ProxyListName: "proxy_list_shared_dc.txt",
+    DefaultProxyIndexName: "DEFAULT",
   }
 end

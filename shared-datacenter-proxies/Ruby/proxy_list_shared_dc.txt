@@ -1,0 +1,7 @@
+dc.pr.oxylabs.io:10000
+dc.us-pr.oxylabs.io:30000
+dc.de-pr.oxylabs.io:40000
+dc.fr-pr.oxylabs.io:42000
+dc.nl-pr.oxylabs.io:44000
+dc.gb-pr.oxylabs.io:46000
+dc.ro-pr.oxylabs.io:48000

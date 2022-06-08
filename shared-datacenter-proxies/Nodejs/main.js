@@ -11,13 +11,14 @@
 
   console.log('Reading from the list...');
   const urls = filesystem.readLines(settings.UrlListName)
+  const proxyMap = filesystem.readProxyMap(settings.ProxyListName)
 
   console.log('Retrieving proxy list...')
 
   console.log('Gathering results...')
   let asyncJobs = [];
   for (let i = 0; i < urls.length; i++) {
-    [parsedUrl, formattedProxy] = proxyUtils.createProxyByUrl(urls[i]);
+    [parsedUrl, formattedProxy] = proxyUtils.createProxyByUrl(proxyMap, urls[i]);
     asyncJobs.push(scraper.scrape(i+1, formattedProxy, parsedUrl))
   }
 

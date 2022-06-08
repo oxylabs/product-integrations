@@ -5,5 +5,8 @@ module.exports = {
   RequestsRate: 10,
   RetriesNum: 3,
   UrlListName: "url_list_shared_dc.txt",
-  ProxyAddress: "dc.pr.oxylabs.io:10000",
+  ProxyListName: "proxy_list_shared_dc.txt",
+
+  ProxyRegex: /^dc\.(?<country>\w{2})-?pr\.oxylabs\.io:\d+$/,
+  DefaultProxyIndexName: "DEFAULT",
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5xYbMdsFLayf5RUGmjCUsNB8G4/SovgFnME3wx73RX2Vt5gOhwu2s0dKVMNKGE1LNm8PidWAA6dmQjCY1wRQ8Q==",
+  "dgSpecHash": "YnlcMPPtME6gqzK50AK2IbtMaW3Y6rMN0xYKCUtSGxo953nIRVN4IBXQWPA+l3y18kOvvGs4suVok1iaJLO8zg==",
   "success": true,
-  "projectFilePath": "Z:\\repos\\Residential\\Oxylabs\\Oxylabs.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\Oxylabs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

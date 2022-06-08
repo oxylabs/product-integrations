@@ -13,6 +13,9 @@
     <None Update="files\browser_headers.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="files\proxy_list_shared_dc.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="files\url_list_dc.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

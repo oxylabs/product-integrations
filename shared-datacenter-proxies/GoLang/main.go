@@ -10,10 +10,16 @@ import (
 func main() {
 	start := time.Now()
 
-	fmt.Println("Reading from the list...")
+	fmt.Println("Reading from the url list...")
 	urls, err := readLines(UrlListName)
 	if err != nil {
-		printAndExit("Failed to read the input file")
+		printAndExit("Failed to read the url input file")
+	}
+
+	fmt.Println("Reading from the proxy list...")
+	proxyMap, err := readProxyMap(ProxyListName)
+	if err != nil {
+		printAndExit("Failed to read the proxy input file")
 	}
 
 	fmt.Println("Retrieving proxy list...")
@@ -31,7 +37,7 @@ func main() {
 	for index, url := range urls {
 		wc.Add(1)
 		go func(url string, position int) {
-			parsedUrl, formattedProxy := createProxyByUrl(url)
+			parsedUrl, formattedProxy := createProxyByUrl(proxyMap, url)
 			scraper.scrape(position, formattedProxy, parsedUrl)
 			wc.Done()
 		}(url, index+1)

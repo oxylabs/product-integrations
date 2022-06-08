@@ -5,6 +5,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
+import java.util.HashMap;
+import java.util.regex.Pattern;
 
 public class FileManager {
     public static final String FAILED_REQUESTS_TXT = "failed_requests.txt";
@@ -16,10 +18,38 @@ public class FileManager {
     }
 
     public List<String> readUrlList() {
+        return this.readListFromFile(Settings.URL_LIST_NAME);
+    }
+
+    public HashMap<String, String> readProxyMap() {
+        var proxyList = this.readListFromFile(Settings.PROXY_LIST_NAME);
+        if (proxyList == null) {
+            return null;
+        }
+
+        var pattern = Pattern.compile(Settings.PROXY_REGEX);
+
+        var proxyMap = new HashMap<String, String>();
+        for (var proxyUrl : proxyList) {
+            var matcher = pattern.matcher(proxyUrl);
+            var hasMatched = matcher.matches();
+            if (!hasMatched) {
+                proxyMap.put(Settings.DEFAULT_PROXY_INDEX_NAME,  proxyUrl);
+                continue;
+            }
+
+            var country = matcher.group("country").toUpperCase();
+            proxyMap.put(country,  proxyUrl);
+        }
+
+        return proxyMap;
+    }
+
+    private List<String> readListFromFile(String fileName) {
         this.consoleWriter.writeln("Reading from the list...");
 
         try {
-            return Files.readAllLines(Paths.get(Settings.URL_LIST_NAME));
+            return Files.readAllLines(Paths.get(fileName));
         } catch (IOException e) {
             this.consoleWriter.writelnAndExit("Failed to read from file: " + e.getMessage());
             return null;

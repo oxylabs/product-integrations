@@ -22,13 +22,14 @@ namespace Oxylabs
             var scraper = new Scraper(apiClient, fileManager, consoleWriter);
 
             var urlList = fileManager.ReadUrlList();
+            var proxyMap = fileManager.ReadProxyMap();
             var tasks = new List<Task>();
 
             consoleWriter.Writeln("Gathering results...");
             for (int i = 0; i < urlList.Length; i++)
             {
                 var url = urlList[i];
-                var proxy = Proxy.CreateProxyByUrl(url);
+                var proxy = Proxy.CreateProxyByUrl(proxyMap, url);
                 var position = i + 1;
 
                 var task = Task.Run(() => scraper.Scrape(position, proxy));

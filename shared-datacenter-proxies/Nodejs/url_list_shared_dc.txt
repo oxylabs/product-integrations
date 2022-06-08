@@ -4,6 +4,6 @@ https://ip.oxylabs.io/headers
 https://ip.oxylabs.io/headers
 https://ip.oxylabs.io/headers
 https://ip.oxylabs.io/headers
-https://ip.oxylabs.io/headers
-https://ip.oxylabs.io/headers
-https://ip.oxylabs.io/headers
+https://ip.oxylabs.io/headers;US
+https://ip.oxylabs.io/headers;GB
+https://ip.oxylabs.io/headers;FR

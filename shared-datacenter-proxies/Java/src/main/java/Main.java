@@ -19,13 +19,14 @@ public class Main implements Runnable {
         var scraper = new Scraper(apiClient, fileManager, consoleWriter);
 
         var urlList = fileManager.readUrlList();
+        var proxyMap = fileManager.readProxyMap();
 
         consoleWriter.writeln("Gathering results...");
         List<CompletableFuture<Void>> futures = new ArrayList<>();
         for (int i = 0; i < urlList.size(); i++) {
             int position = i;
             var future = CompletableFuture.runAsync(() -> {
-                var proxy = Proxy.createProxyByUrl(urlList.get(position));
+                var proxy = Proxy.createProxyByUrl(proxyMap, urlList.get(position));
                 scraper.scrape(position + 1, proxy);
             });
 

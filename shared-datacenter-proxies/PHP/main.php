@@ -18,8 +18,11 @@ const PASSWORD = '';
 const TIMEOUT = 5;
 const REQUESTS_RATE = 5;
 const RETRIES_NUM = 3;
-const PROXY_ADDRESS = 'dc.pr.oxylabs.io:10000';
 const URL_LIST_NAME = 'url_list_shared_dc.txt';
+const PROXY_LIST_NAME = 'proxy_list_shared_dc.txt';
+
+const PROXY_REGEX = '/^dc\.(?<country>\w{2})-?pr\.oxylabs\.io:\d+$/';
+const DEFAULT_PROXY_INDEX_NAME = 'DEFAULT';
 
 $executionStart = microtime(true);
 
@@ -46,12 +49,12 @@ $websiteScraper = new WebsiteScraper(
 
 $promises = [];
 $urlList = $fileManager->readUrlList();
-
+$proxyMap = $fileManager->readProxyMap();
 $proxyFormatter = new ProxyFormatter();
 
 $consoleWriter->writeln('Gathering results...');
 foreach ($urlList as $position => $url) {
-    [$parsedUrl, $proxy] = $proxyFormatter->formatByUrl($url);
+    [$parsedUrl, $proxy] = $proxyFormatter->formatByUrl($proxyMap, $url);
     $promises[] = $websiteScraper->scrapeAsync($position + 1, $proxy, $parsedUrl);
 }
 

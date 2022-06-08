@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DependencyValidationManager">
+    <scope name="# Non-test files (sources)" pattern="file:src//*.php&amp;&amp;!file:src/Evp/Bundle/*/Tests//*" />
+    <scope name="# Test files" pattern="file:src//*/Tests//*.php" />
+  </component>
+</project>

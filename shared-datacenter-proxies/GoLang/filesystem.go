@@ -6,10 +6,31 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 )
 
 const errorFilename = "failed_requests.txt"
 const successFilename = "result_%d.html"
+
+func readProxyMap(path string) (map[string]string, error) {
+	proxyList, err := readLines(path)
+	if err != nil {
+		return nil, err
+	}
+
+	proxyMap := make(map[string]string)
+	for _, proxyUrl := range proxyList {
+		matchResult := matchProxyUrl(proxyUrl)
+
+		if country, ok := matchResult["country"]; ok {
+			proxyMap[strings.ToUpper(country)] = proxyUrl
+		} else {
+			proxyMap[DefaultProxyIndexName] = proxyUrl
+		}
+	}
+
+	return proxyMap, nil
+}
 
 func readLines(path string) ([]string, error) {
 	file, err := os.Open(path)

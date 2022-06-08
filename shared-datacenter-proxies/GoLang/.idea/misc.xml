@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ComposerJsonPluginSettings">
+    <unboundedVersionInspectionSettings>
+      <excludedPackages />
+    </unboundedVersionInspectionSettings>
+    <customRepositories />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="e2de7c2e-3808-437c-9267-30628ad4f65c">
+    <pharPath>$USER_HOME$/.bin/composer</pharPath>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" ignore_connections_through_unregistered_servers="true" max_simultaneous_connections="10" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+</project>

@@ -13,17 +13,42 @@ class FileManager
     ) {
     }
 
+    public function readProxyMap(): array
+    {
+        $fileName = sprintf('%s/%s', $this->inputDirectory, PROXY_LIST_NAME);
+        $proxyList = $this->readListFromFile($fileName);
+
+        $proxyMap = [];
+        foreach ($proxyList as $proxyUrl) {
+            $trimmedProxyUrl = trim($proxyUrl);
+            preg_match(PROXY_REGEX, $trimmedProxyUrl, $matches);
+            $country = $matches['country'] ?? DEFAULT_PROXY_INDEX_NAME;
+            $proxyMap[strtoupper($country)] = $trimmedProxyUrl;
+        }
+
+        return $proxyMap;
+    }
+
     public function readUrlList(): array
+    {
+        $fileName = sprintf('%s/%s', $this->inputDirectory, URL_LIST_NAME);
+
+        return $this->readListFromFile($fileName);
+    }
+
+    public function readListFromFile(string $path): array
     {
         $this->consoleWriter->writeln('Reading from the list...');
 
-        $urlList = @file(sprintf('%s/%s', $this->inputDirectory, URL_LIST_NAME));
-        if (!$urlList) {
+        $list = @file($path);
+        if (!$list) {
             $this->consoleWriter->writelnError('Failed to read input file');
             exit(1);
         }
 
-        return array_filter($urlList);
+        $trimmedList = array_map('trim', $list);
+
+        return array_filter($trimmedList);
     }
 
     public function writeError(string $contents): void

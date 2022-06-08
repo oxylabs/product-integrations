@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\repos\\Residential\\Oxylabs\\Oxylabs.csproj": {}
+    "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\Oxylabs.csproj": {}
   },
   "projects": {
-    "Z:\\repos\\Residential\\Oxylabs\\Oxylabs.csproj": {
+    "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\Oxylabs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\repos\\Residential\\Oxylabs\\Oxylabs.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\Oxylabs.csproj",
         "projectName": "Oxylabs",
-        "projectPath": "Z:\\repos\\Residential\\Oxylabs\\Oxylabs.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\Oxylabs.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "Z:\\repos\\Residential\\Oxylabs\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\CSharp\\Oxylabs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

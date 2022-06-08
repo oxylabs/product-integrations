@@ -12,7 +12,7 @@ Setup the script using the following constants (see settings.js)
 * RequestsRate (Integer) - Number of requests to make per one second
 * RetriesNum (Integer) - Number of times to retry if initial request was unsuccessful
 * UrlListName (String) - Filename of a txt file with the URLs that needs to scraped
-* ProxyAddress (String) - Shared Datacenter proxies endpoint.
+* ProxyListName (String) - Filename of a txt file that contains country-specific proxy servers
 
 ## Prerequisites
 

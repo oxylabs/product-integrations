@@ -12,7 +12,7 @@ Setup the script using the following constants (see Settings.java)
 * REQUESTS_RATE (Integer) - Number of requests to make per one second
 * RETRIES_NUM (Integer) - Number of times to retry if initial request was unsuccessful
 * URL_LIST_NAME (String) - Filename of a txt file with the URLs that needs to scraped
-* PROXY_ADDRESS (String) - Shared Datacenter proxies endpoint.
+* PROXY_LIST_NAME (String) - Filename of a txt file that contains country-specific proxy servers
 
 ## Prerequisites
 

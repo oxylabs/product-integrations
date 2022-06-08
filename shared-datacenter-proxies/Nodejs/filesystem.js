@@ -3,6 +3,7 @@ const fs = require('fs');
 const writeFilePromisified = stdUtil.promisify(fs.writeFile)
 const appendFilePromisified = stdUtil.promisify(fs.appendFile)
 const util = require('./util');
+const settings = require('./settings');
 
 const errorFilename = 'failed_requests.txt'
 
@@ -18,6 +19,25 @@ module.exports = {
     } catch (e) {
       util.printAndExit('Could not read file: ' + e.message)
     }
+  },
+
+  readProxyMap: (path) => {
+    const proxyList = module.exports.readLines(path);
+
+    const proxyMap = [];
+    for (const index in proxyList) {
+      const proxyUrl = proxyList[index];
+      const regexResult = settings.ProxyRegex.exec(proxyUrl);
+      if (!regexResult || regexResult.groups === undefined) {
+        proxyMap[settings.DefaultProxyIndexName] = proxyUrl;
+        continue;
+      }
+
+      const country = regexResult.groups.country.toUpperCase();
+      proxyMap[country] = proxyUrl;
+    }
+
+    return proxyMap;
   },
 
   writeErrorToFile: async(error) => {

@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Proxy {
     private final String url;
     private final String proxyHost;
@@ -30,9 +32,22 @@ public class Proxy {
         return url;
     }
 
-    public static Proxy createProxyByUrl(String url) {
+    public static Proxy createProxyByUrl(HashMap<String, String> proxyMap, String url) {
+        String country = null;
+
+        var urlParts = url.split(";");
+        if (urlParts.length == 2) {
+            url = urlParts[0];
+            country = urlParts[1];
+        }
+
+        var proxyAddress = proxyMap.get(Settings.DEFAULT_PROXY_INDEX_NAME);
+        if (proxyMap.containsKey(country)) {
+            proxyAddress = proxyMap.get(country);
+        }
+
         var proxyUsername = String.format("customer-%s", Settings.USERNAME);
 
-        return new Proxy(url, Settings.PROXY_ADDRESS, proxyUsername, Settings.PASSWORD);
+        return new Proxy(url, proxyAddress, proxyUsername, Settings.PASSWORD);
     }
 }
