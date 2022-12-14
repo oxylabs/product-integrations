@@ -1,0 +1,8 @@
+{
+    "name": "oxylabs/scraper-api-example",
+    "type": "project",
+    "require": {
+      "php": "^7.4|^8.0",
+      "ext-curl": "*"
+    }
+}
