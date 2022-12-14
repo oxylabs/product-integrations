@@ -1,0 +1,20 @@
+{
+  "name": "scraper-api-example",
+  "description": "An example of using oxylabs scraper api",
+  "main": "",
+  "authors": [
+    "oxylabs"
+  ],
+  "homepage": "https://developers.oxylabs.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
