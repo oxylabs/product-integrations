@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://oxylabs.io/">
-      <img src="../images/oxy_logo.png" alt="Oxylabs logo" width="218">
+      <img src="/images/oxy_logo.png" alt="Oxylabs logo" width="218">
     </a>
 </p>
 
