@@ -5,5 +5,5 @@ module.exports = {
   RequestsRate: 10,
   RetriesNum: 3,
   UrlListName: "url_list_ngrp.txt",
-  ProxyAddress: "ngrp.oxylabs.io:60000",
+  ProxyAddress: "unblock.oxylabs.io:60000",
 }
