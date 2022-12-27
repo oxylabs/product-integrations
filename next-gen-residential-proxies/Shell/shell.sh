@@ -1,1 +1,1 @@
-shell curl --proxy ngrp.oxylabs.io:60000 --proxy-user username:pass "https://ip.oxylabs.io"
+shell curl --proxy unblock.oxylabs.io:60000 --proxy-user username:pass "https://ip.oxylabs.io"
