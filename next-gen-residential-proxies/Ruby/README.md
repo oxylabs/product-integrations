@@ -1,6 +1,6 @@
-# NextGen Residential Proxies Ruby Example
+# Web Unblocker Ruby Example
 
-This example demonstrates how to use [nextgen residential proxy API](https://developers.oxylabs.io/next-gen-residential-proxies/index.html#quick-start)
+This example demonstrates how to use [Web Unblocker API](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker)
 
 ## Global variables
 
@@ -12,7 +12,7 @@ Setup the script using the following constants (see settings.rb)
 * RequestsRate (Integer) - Number of requests to make per one second
 * RetriesNum (Integer) - Number of times to retry if initial request was unsuccessful
 * UrlListName (String) - Filename of a txt file with the URLs that needs to scraped
-* ProxyAddress (String) - NextGen residential proxy endpoint.
+* ProxyAddress (String) - Web Unblocker proxy endpoint.
 
 ## Prerequisites
 
