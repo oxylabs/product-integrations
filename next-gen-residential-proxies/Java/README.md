@@ -1,6 +1,6 @@
-# NextGen Residential Proxies Java Example
+# Web Unblocker Java Example
 
-This example demonstrates how to use [nextgen residential proxy API](https://developers.oxylabs.io/next-gen-residential-proxies/index.html#quick-start)
+This example demonstrates how to use [Web Unblocker API](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker)
 
 ## Global variables
 
@@ -12,7 +12,7 @@ Setup the script using the following constants (see Settings.java)
 * REQUESTS_RATE (Integer) - Number of requests to make per one second
 * RETRIES_NUM (Integer) - Number of times to retry if initial request was unsuccessful
 * URL_LIST_NAME (String) - Filename of a txt file with the URLs that needs to scraped
-* PROXY_ADDRESS (String) - Residential proxies endpoint.
+* PROXY_ADDRESS (String) - Web Unblocker proxy endpoint.
 
 ## Prerequisites
 
