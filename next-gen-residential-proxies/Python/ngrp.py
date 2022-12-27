@@ -8,7 +8,7 @@ import aiohttp
 
 USERNAME = ""
 PASSWORD = ""
-PROXY_ADDRESS = "ngrp.oxylabs.io:60000"
+PROXY_ADDRESS = "unblock.oxylabs.io:60000"
 REQUESTS_RATE = 10
 TIMEOUT = 60
 URL_LIST_NAME = "url_list_ngrp.txt"
