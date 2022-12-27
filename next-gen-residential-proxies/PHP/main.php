@@ -18,7 +18,7 @@ const PASSWORD = '';
 const TIMEOUT = 5;
 const REQUESTS_RATE = 5;
 const RETRIES_NUM = 3;
-const PROXY_ADDRESS = 'ngrp.oxylabs.io:60000';
+const PROXY_ADDRESS = 'unblock.oxylabs.io:60000';
 const URL_LIST_NAME = 'url_list_ngrp.txt';
 
 $executionStart = microtime(true);
