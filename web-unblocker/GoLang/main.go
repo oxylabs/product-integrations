@@ -16,16 +16,11 @@ func main() {
 		printAndExit("Failed to read the input file")
 	}
 
-	fmt.Println("Retrieving proxy list...")
 	apiRateLimit := rate.NewLimiter(rate.Every(time.Second), RequestsRate)
 	apiClient := NewClient(apiRateLimit)
-	if err != nil {
-		printAndExit("Failed to download proxy list")
-	}
+	scraper := NewScraper(apiClient)
 
 	wc := sync.WaitGroup{}
-
-	scraper := NewScraper(apiClient)
 
 	fmt.Println("Gathering results...")
 	for index, url := range urls {
@@ -40,5 +35,5 @@ func main() {
 	wc.Wait()
 
 	elapsed := time.Since(start)
-	fmt.Printf("Script finished after %.2fs\n", elapsed.Seconds())
+	fmt.Printf("Scraping finished after %.2fs\n", elapsed.Seconds())
 }
