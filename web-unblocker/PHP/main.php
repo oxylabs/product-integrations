@@ -53,7 +53,7 @@ $proxyFormatter = new ProxyFormatter();
 $consoleWriter->writeln('Gathering results...');
 foreach ($urlList as $position => $url) {
     [$parsedUrl, $country, $proxy] = $proxyFormatter->formatByUrl($url);
-    $promises[] = $websiteScraper->scrapeAsync($position + 1, $proxy, $parsedUrl, $country);
+    $promises[] = @$websiteScraper->scrapeAsync($position + 1, $proxy, $parsedUrl, $country);
 }
 
 Utils::settle($promises)->wait();
