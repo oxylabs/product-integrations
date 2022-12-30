@@ -2,3 +2,6 @@
 .idea
 vendor
 node_modules
+bin
+obj
+packages
