@@ -4,7 +4,7 @@ This example demonstrates how to use [shared datacenter proxy API](https://devel
 
 ## Global variables
 
-Setup the script using the following constants (see Settings.java)
+Set up the script using the following constants (see Settings.java)
 
 * USERNAME (String) - Username of a proxy user
 * PASSWORD (String) - Password of a proxy user

@@ -4,7 +4,7 @@ This example demonstrates how to use [Web Unblocker API](https://developers.oxyl
 
 ## Global variables
 
-Setup the script using the following constants (see settings.rb)
+Set up the script using the following constants (see settings.rb)
 
 * Username (String) - Username of a proxy user
 * Password (String) - Password of a proxy user

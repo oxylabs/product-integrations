@@ -4,7 +4,7 @@ This example demonstrates how to use [residential proxy API](https://developers.
 
 ## Global variables
 
-Setup the script using the following constants (see constant.go)
+Set up the script using the following constants (see constant.go)
 
 * Username (String) - Username of a proxy user
 * Password (String) - Password of a proxy user

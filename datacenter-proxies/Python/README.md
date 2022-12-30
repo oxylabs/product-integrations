@@ -4,7 +4,7 @@ This example demonstrates how to use [oxylabs datacenter API](https://developers
 
 ## Global variables
 
-Setup the script using the following constants
+Set up the script using the following constants
 
 * USERNAME (String) - Username of a proxy user
 * PASSWORD (String) - Password of a proxy user
