@@ -52,7 +52,7 @@ namespace Oxylabs
                     try
                     {
                         var body = response.Content.ReadAsStringAsync().Result;
-                        this.fileManager.writeSuccess(position, body);
+                        this.fileManager.WriteSuccess(position, body);
                     }
                     catch (Exception e)
                     {

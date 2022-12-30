@@ -50,7 +50,7 @@ namespace Oxylabs
             }
         }
 
-        public void writeSuccess(int position, String contents)
+        public void WriteSuccess(int position, String contents)
         {
             try
             {
