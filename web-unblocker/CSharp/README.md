@@ -4,7 +4,7 @@ This example demonstrates how to use [Web Unblocker API](https://developers.oxyl
 
 ## Global variables
 
-Setup the script using the following constants (see Settings.cs)
+Set up the script using the following constants (see Settings.cs)
 
 * USERNAME (String) - Username of a proxy user
 * PASSWORD (String) - Password of a proxy user

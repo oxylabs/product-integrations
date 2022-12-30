@@ -9,7 +9,8 @@
 </h2>
 
 <p align="center">
-Web Unblocker is an AI-powered proxy solution that manages the unblocking process to extract public data even from the most difficult websites.  
+Web Unblocker is an AI-powered proxy solution that manages the unblocking process to extract public data even
+from the most difficult websites.  
 </p>
 
 ## Navigation Key
@@ -30,7 +31,9 @@ Web Unblocker is an AI-powered proxy solution that manages the unblocking proces
 
 ## How Web Unblocker work
 
-Web Unblocker uses a simple backconnect proxy (a single-entry node) and is compatible with your existing code. If you have already utilized proxies in your infrastructure, all you need to do is type in a Web Unblocker entry node instead of your current one. That’s it. Visit [Oxylabs documentation](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker) for further guidelines.
+Web Unblocker uses a simple backconnect proxy (a single-entry node) and is compatible with your existing code.
+If you have already utilized proxies in your infrastructure, all you need to do is type in a Web Unblocker entry node
+instead of your current one. That’s it. Visit [Oxylabs documentation](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker) for further guidelines.
 
 ## Getting started
 <br> 1. Sign up for the Web Unblocker [1-week free trial](https://oxylabs.io/products/web-unblocker)
