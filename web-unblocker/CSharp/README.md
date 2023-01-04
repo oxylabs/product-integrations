@@ -1,10 +1,10 @@
-# Shared Datacenter Proxies Python Example
+# Web Unblocker C# Example
 
-This example demonstrates how to use [shared datacenter proxy API](https://developers.oxylabs.io/shared-dc/#quick-start) 
+This example demonstrates how to use [Web Unblocker API](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker)
 
 ## Global variables
 
-Set up the script using the following constants
+Set up the script using the following constants (see Settings.cs)
 
 * USERNAME (String) - Username of a proxy user
 * PASSWORD (String) - Password of a proxy user
@@ -12,21 +12,13 @@ Set up the script using the following constants
 * REQUESTS_RATE (Integer) - Number of requests to make per one second
 * RETRIES_NUM (Integer) - Number of times to retry if initial request was unsuccessful
 * URL_LIST_NAME (String) - Filename of a txt file with the URLs that needs to scraped
-* PROXY_LIST_NAME (String) - Filename of a txt file that contains country-specific proxy servers
+* PROXY_ADDRESS (String) - Web Unblocker proxy endpoint.
 
 ## Prerequisites
 
 The following tools need to be present on your system
-* pipenv
+* C# Development environment
 
 ## How to run the script
 
-Install dependencies
-```
-$ pipenv install
-```
-
-Run the script inside the virtualenv
-```
-$ pipenv run python shared_dc.py
-```
+Build and run by opening the attached sln file.

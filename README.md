@@ -57,7 +57,7 @@ check out our [quick start guides](https://oxylabs.io/resources/start-guides).
 - [C#](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/CSharp)
 - [Java](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Java)
 - [Node.js](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/scraper-apisPHP)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/PHP)
 - [Python](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Python)
 
 ## Contacts

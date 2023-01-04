@@ -1,10 +1,10 @@
-# Datacenter Proxies Ruby Example
+# Web Unblocker Golang Example
 
-This example demonstrates how to use [oxylabs datacenter API](https://developers.oxylabs.io/datacenter-proxies/index.html#quick-start)
+This example demonstrates how to use [Web Unblocker API](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker) 
 
 ## Global variables
 
-Set up the script using the following constants (see settings.rb)
+Set up the script using the following constants:
 
 * Username (String) - Username of a proxy user
 * Password (String) - Password of a proxy user
@@ -12,20 +12,22 @@ Set up the script using the following constants (see settings.rb)
 * RequestsRate (Integer) - Number of requests to make per one second
 * RetriesNum (Integer) - Number of times to retry if initial request was unsuccessful
 * UrlListName (String) - Filename of a txt file with the URLs that needs to scraped
+* ProxyAddress (String) - Web Unblocker proxy endpoint
 
 ## Prerequisites
 
 The following tools need to be present on your system
-* ruby >= 3.0.3
+* go 1.16+
 
 ## How to run the script
 
 Install dependencies
 ```
-bundle install
+go get ./...
 ```
 
-Execute the script:
+Compile and execute the script:
 ```
-ruby main.rb
+go run *.go
 ```
+

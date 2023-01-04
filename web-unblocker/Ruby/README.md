@@ -1,6 +1,6 @@
-# Datacenter Proxies Ruby Example
+# Web Unblocker Ruby Example
 
-This example demonstrates how to use [oxylabs datacenter API](https://developers.oxylabs.io/datacenter-proxies/index.html#quick-start)
+This example demonstrates how to use [Web Unblocker API](https://developers.oxylabs.io/advanced-proxy-solutions/web-unblocker)
 
 ## Global variables
 
@@ -12,6 +12,7 @@ Set up the script using the following constants (see settings.rb)
 * RequestsRate (Integer) - Number of requests to make per one second
 * RetriesNum (Integer) - Number of times to retry if initial request was unsuccessful
 * UrlListName (String) - Filename of a txt file with the URLs that needs to scraped
+* ProxyAddress (String) - Web Unblocker proxy endpoint.
 
 ## Prerequisites
 

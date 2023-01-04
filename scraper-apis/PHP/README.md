@@ -9,7 +9,7 @@ For full access to all available targets, please contact our Sales Manager or yo
 - PHP >= 7.4
 - PHP curl extension
 
-You check whether you meet the requirements by running the following command:
+You need to check whether you meet the requirements by running the following command:
 ```
 $ composer install
 ```

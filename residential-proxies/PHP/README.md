@@ -4,7 +4,7 @@ This example demonstrates how to use [residential proxy API](https://developers.
 
 ## Global variables
 
-Setup the script using the following constants
+Set up the script using the following constants
 
 * USERNAME (String) - Username of a proxy user
 * PASSWORD (String) - Password of a proxy user
@@ -21,6 +21,11 @@ The following tools need to be present on your system
 * php >= 8.0
 
 ## How to run the script
+
+Install dependencies using composer:
+```
+$ composer install
+```
 
 Execute the main file:
 ```
