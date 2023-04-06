@@ -44,7 +44,7 @@ Scraper APIs are easy to use and don't require any specific infrastructure or re
 
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
 <br> 2. Choose Scraper APIs as the desired product
-<br> 3. Get contacted by our team and set up your scraper
+<br> 3. Claim your free trial
 <br> 4. Start scraping
 
 For a detailed guide on how to implement and start using Scraper APIs, check out our [quick start guides](https://oxylabs.io/resources/start-guides)
