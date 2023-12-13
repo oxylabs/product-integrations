@@ -4,7 +4,7 @@ https://ip.oxylabs.io/headers
 https://ip.oxylabs.io/headers
 https://ip.oxylabs.io/headers;US
 https://ip.oxylabs.io/headers;GB
-https://ip.oxylabs.io/fasdfasf;CA
+https://ip.oxylabs.io/headers;CA
 https://ip.oxylabs.io/headers;AU
 https://ip.oxylabs.io/headers;NZ
 https://ip.oxylabs.io/headers;IE
