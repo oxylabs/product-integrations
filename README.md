@@ -1,16 +1,20 @@
 
 
-[![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
-
 <h2 align="center">
   Oxylabs Scraper APIs
 </h2>
+
+
+[![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
 <p align="center">
 Oxylabs’ Scraper APIs are public data scrapers that provide real-time 
 information from major search engines, over a 1000 e-commerce websites 
 and other difficult-to-scrape targets.
 </p>
+
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/eWsVUJrnG5)
+
 
 ## Navigation Key
 
