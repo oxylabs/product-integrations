@@ -57,7 +57,7 @@ For a detailed guide on how to implement and start using Scraper APIs, check out
 - [Typescript](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Typescript)
 - [PHP](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/PHP)
 - [Python](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Python)
-- [Golang](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Golang)
+- [Golang](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/GoLang)
 
 ## Contacts
 Email - hello@oxylabs.io
