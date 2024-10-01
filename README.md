@@ -1,14 +1,14 @@
 
 
 <h2 align="center">
-  Oxylabs Scraper APIs
+  Oxylabs Web Scraper API
 </h2>
 
 
 [![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
 <p align="center">
-Oxylabs’ Scraper APIs are public data scrapers that provide real-time 
+Oxylabs’ Web Scraper API is a public data scraper that provides real-time 
 information from major search engines, over a 1000 e-commerce websites 
 and other difficult-to-scrape targets.
 </p>
@@ -19,14 +19,14 @@ and other difficult-to-scrape targets.
 ## Navigation Key
 
 - [Features](#features)
-- [How Scraper APIs works](#how-scraper-apis-works)
+- [How Web Scraper API works](#how-web-scraper-api-works)
 - [Getting started](#getting-started)
 - [Integrations](#integrations)
 - [Contacts](#contacts)
 
 ## Features
 
-- 100% success rate
+- Pay only for successful requests
 - Location- and device-specific requests
 - Results' parsing (in JSON) for selected targets
 - JavaScript rendering
@@ -35,32 +35,32 @@ and other difficult-to-scrape targets.
 - Patented proxy rotator
 - Session control
  
-## How Scraper APIs works
+## How Web Scraper API works
 
-Scraper APIs are easy to use and don't require any specific infrastructure or 
+Web Scraper API is easy to use and doesn't require any specific infrastructure or 
 resources from your end:
 
-1. Send a request to any of the Scraper APIs.
-2. Scraper APIs collect the required information from your target.
+1. Send a request to Web Scraper API.
+2. The API collects the required information from your target.
 3. Receive ready-to-use web data.
 
 ## Getting started
 
 1. [Create an Oxylabs account.](https://dashboard.oxylabs.io/registration)
-2. Choose Scraper APIs as the desired product.
-3. Get contacted by our team and set up your scraper.
-4. Start scraping.
+2. Choose Web Scraper API as the desired product.
+3. Set up your scraper and start scraping.
+4. Contact our support team if you need any assistance.
 
-For a detailed guide on how to implement and start using Scraper APIs, 
-check out our [quick start guides](https://oxylabs.io/resources/start-guides).
+For a detailed guide on how to implement and start using Web Scraper API, 
+check out our [quick start guide](https://oxylabs.io/blog/web-scraper-api-quick-start-guide) and a [quick start GitHub repository](https://github.com/oxylabs/quick-start-guide).
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/PHP)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Python)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Nodejs)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/PHP)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Python)
 
 ## Contacts
 Email - hello@oxylabs.io
