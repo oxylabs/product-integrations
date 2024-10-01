@@ -56,11 +56,13 @@ check out our [quick start guide](https://oxylabs.io/blog/web-scraper-api-quick-
 
 ## Integrations
 
-- [C#](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/CSharp)
-- [Java](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Java)
-- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Nodejs)
-- [PHP](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/PHP)
-- [Python](https://github.com/oxylabs/product-integrations/tree/master/web-scraper-api/Python)
+- [C#](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/CSharp)
+- [Java](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Java)
+- [Node.js](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Nodejs)
+- [Typescript](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Typescript)
+- [PHP](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/PHP)
+- [Python](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/Python)
+- [Golang](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/GoLang)
 
 ## Contacts
 Email - hello@oxylabs.io
