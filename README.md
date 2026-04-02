@@ -65,5 +65,5 @@ check out our [quick start guide](https://oxylabs.io/blog/web-scraper-api-quick-
 - [Golang](https://github.com/oxylabs/product-integrations/tree/master/scraper-apis/GoLang)
 
 ## Contacts
-Email - hello@oxylabs.io
-<br><a href="https://oxylabs.drift.click/oxybot">Live chat</a>
+
+If you have questions or need support, reach out to us at support@oxylabs.io, or through live chat, accessible via [Oxylabs Dashboard](https://dashboard.oxylabs.io/en/), or join our [Discord community](https://discord.gg/Pds3gBmKMH). For enterprise-related inquiries, contact your dedicated account manager.
