@@ -56,5 +56,4 @@ For a detailed breakdown on how to use our self-service and make first requests,
 
 
 ## Contacts
-Email - hello@oxylabs.io
-<br><a href="https://oxylabs.drift.click/oxybot">Live chat</a>
+If you have questions or need support, reach out to us at support@oxylabs.io, or through live chat, accessible via Oxylabs Dashboard, or join our Discord community. For enterprise-related inquiries, contact your dedicated account manager.
