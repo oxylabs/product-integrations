@@ -5,11 +5,11 @@
 </p>
 
 <h2 align="center">
-  Oxylabs Shared Datacenter Proxies
+  Oxylabs Datacenter Proxies
 </h2>
 
 <p align="center">
-Oxylabs offers 20,000 Shared Datacenter Proxies from 6 different locations.
+Oxylabs offers 20,000 Datacenter Proxies from 6 different locations.
   
 </p>
 
@@ -30,13 +30,13 @@ Oxylabs offers 20,000 Shared Datacenter Proxies from 6 different locations.
   
 ## Getting started
 <br> 1. [Create an Oxylabs account](https://dashboard.oxylabs.io/registration)
-<br> 2. Choose Shared Datacenter Proxies as the desired product
-<br> 3. Purchase Shared Datacenter Proxies plan using dashboard
+<br> 2. Choose  Datacenter Proxies as the desired product
+<br> 3. Purchase  Datacenter Proxies plan using dashboard
 <br> 4. Start scraping
 
-For a detailed guide on how to implement and start using Shared Datacenter Proxies, check out our [quick start guide](https://oxylabs.io/blog/shared-datacenter-proxies-quick-start-guide). 
+For a detailed guide on how to implement and start using  Datacenter Proxies, check out our [quick start guide](https://oxylabs.io/blog/-datacenter-proxies-quick-start-guide). 
 
-Oxylabs Shared Datacenter Proxies also have a self-service (Fast Checkout) feature for four of our shared datacenter proxy plans. These options become available after [registering an account](https://dashboard.oxylabs.io/registration).
+Oxylabs Datacenter Proxies also have a self-service (Fast Checkout) feature for four of our datacenter proxy plans. These options become available after [registering an account](https://dashboard.oxylabs.io/registration).
 
 For a detailed breakdown on how to use our self-service and make first requests, be sure to check out video below.
 
