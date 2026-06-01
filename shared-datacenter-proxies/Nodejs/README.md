@@ -1,6 +1,6 @@
-# Shared Datacenter Proxies NodeJs Example
+# Datacenter Proxies NodeJs Example
 
-This example demonstrates how to use [shared datacenter proxy API](https://developers.oxylabs.io/shared-dc/#quick-start)
+This example demonstrates how to use [datacenter proxy API](https://developers.oxylabs.io/get-started/quick-start-proxies)
 
 ## Global variables
 
