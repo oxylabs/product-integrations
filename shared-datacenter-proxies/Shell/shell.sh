@@ -1,1 +1,1 @@
-curl -x dc.pr.oxylabs.io:10000 -U "customer-USERNAME:PASSWORD" https://ip.oxylabs.io/location
+curl -x dc.oxylabs.io:8000 -U "user-USERNAME:PASSWORD" https://ip.oxylabs.io/location
